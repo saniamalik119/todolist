@@ -1,0 +1,132 @@
+body{
+   background: url(./images/3.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.content{
+    margin: 100px 330px;
+
+
+}
+h1{
+    font-family: dancing script;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+.addbtn{
+
+    border-style: none;
+    font-family: oswald;
+    text-transform: capitalize;
+    padding: 6px ;
+    border-radius: 50px;
+    background-color: black;
+    color: #F6F6C9;
+    margin: 10px;
+  float: right;
+    border: none;
+    margin-right: 115px;
+
+}
+.delbtn{
+    border-style: none;
+    font-family: oswald;
+    text-transform: capitalize;
+    padding: 6px 10px;
+    border-radius: 60%;
+    background-color: black;
+    color: #F6F6C9;
+    float: right;
+   
+}
+   
+p{
+   
+    font-family: oswald;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 10px 20px;
+   font-size: 1.2rem;
+    border-radius: 20px;
+   background-color: #22A39F;
+   color: rgb(51, 51, 51);
+    width: 500px;
+   color: black;
+    margin-bottom: 8px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0,  .08);
+   
+}
+::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+
+  input[type="text"] {
+  position: relative;
+  left: 45px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 20px; 
+    
+    border-radius: 20px;
+   background-color: #F3EFE0 ;
+    color: #111110;
+    width: 450px;
+    
+  }
+.input2{
+    position: relative;
+    right: 20px;
+}
+input:checked+p {
+ 
+    text-decoration-color: #A683E3;
+    background-color: #ADE792;
+    transition: 0.5s ease;
+    
+  }
+  input:checked+.delbtn{
+    background-color: black;
+  }
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    
+   
+}
+
+  input[type="checkbox"] {
+    color: black;
+    border-radius: 50%;
+    /* border-width: 600px; */
+    margin: 10px;
+    
+
+
+  }
+  @media screen and (max-width: 980px) {
+    .content{
+        margin: 0;
+    }
+    input[type="text"]{
+        width: 350px;
+    }
+    .addbtn{
+    position: relative;
+    bottom: 50px;
+    left: 110px;
+        
+    }
+    
+    
+  }
