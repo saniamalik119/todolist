@@ -82,4 +82,4 @@ app.post("/", (req, res) =>{
 })
 
 
-app.listen(3000, () => console.log("pot is running"))
+app.listen(process.env.PORT, () => console.log("pot is running"))
